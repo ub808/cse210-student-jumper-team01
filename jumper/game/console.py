@@ -10,28 +10,16 @@ class Console:
     Attributes:
         prompt (string): The prompt to display on each line.
     """
-     
-    def read(self, prompt):
-        """Gets text input from the user through the screen.
-
-        Args: 
-            self (Screen): An instance of Screen.
-            prompt (string): The prompt to display to the user.
-
-        Returns:
-            string: The user's input as text.
-        """
-        return input(prompt)
 
     def read_letter(self, prompt):
-        """Gets numerical input from the user through the screen.
+        """Gets a letter input from the user through the screen.
 
         Args: 
             self (Screen): An instance of Screen.
             prompt (string): The prompt to display to the user.
 
         Returns:
-            float: The user's input as a float.
+            string: The user's input as a string.
         """
         return input(prompt)
         
@@ -43,3 +31,9 @@ class Console:
             text (string): The text to display.
         """
         print(text)
+
+    def print_list(self, list_w):
+        for i in list_w:
+            print(i, end = "")
+        
+        print()
