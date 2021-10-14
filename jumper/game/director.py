@@ -73,7 +73,7 @@ class Director:
         result = self.jumper.check_keep_playing()
         
         if result == -1:
-            self.console.write("Sorry, you didn't guess the word! Game over.")
+            self.console.write("\033[31mSorry, you didn't guess the word! Game over.\x1b[0m")
             self.keep_playing = False
         
         elif result == 0:

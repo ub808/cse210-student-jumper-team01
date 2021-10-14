@@ -1,7 +1,20 @@
 import random
 
 class Word:
-    """ Some comments here """
+    """ A code template for a class that handles the word in the game. The responsibility of 
+    this class of objects to choose a random word from a list, hide it with under scores 
+    and update it throughout the game. 
+    
+    Stereotype:
+        Holder
+
+    Attributes:
+        console (Console): An instance of the class of objects known as Console.
+        keep_playing (boolean): Whether or not the game can continue. 
+        chosen_word: word picked from random list of words.
+        hidden_word: puts underscores to represent letters of chosen word.
+        """
+
     chosen_word = ""
     hidden_word = []
     
