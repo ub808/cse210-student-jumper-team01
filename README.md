@@ -37,3 +37,5 @@ root                    (project root folder)
 * TODO: Add your names and emails here
 Brian Lewis - 1808ub@gmail.com
 Tamara Meisman - tamara@meisman.us
+Yamil Claure - cla21018@byui.edu
+
